@@ -8,7 +8,7 @@ Installation Instructions:
 
 1) Download and Install the Latest Version of Python from :https://www.python.org/downloads/
 
-2) Download the Files andrun the included batfile to install the Needed Requirements.
+2) Download the Files and run the included batfile to install the Needed Requirements.
 
 3)If you get any Error after running the Batch File,Open CMD,copy the location of the the folder and paste it in CMD as cd "Copied Location" without Double Quotes and Enter "pip install -r requirements.txt" without Double Quotes.
 
