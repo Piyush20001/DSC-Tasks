@@ -1,7 +1,7 @@
 # DSC-Tasks
 
 
-Use Case(3) I have created Attendance Management System for Workshops Using Pythong with Django framework.JavaScript was Used for scroll Script and Color Change.
+Use Case(3) I have created Attendance Management System for Workshops Using Python with Django framework.JavaScript was Used for scroll Script and Color Change.
 
 Installation Instructions:
 
