@@ -10,7 +10,7 @@ Installation Instructions:
 2) Download the Files and run the included batfile to install the Needed Requirements.
 
 3)If you get any Error after running the Batch File,Open CMD,copy the location of the the folder and paste it in CMD as cd "Copied Location" without Double Quotes and Enter "pip install -r requirements.txt" without Double Quotes.
-
+![imageedit_4_6525609073](https://user-images.githubusercontent.com/44575274/129488098-009c2936-e1b8-4646-8773-355face3d7ee.png)
 
 
 4) Run the website by Opening CMD,changing the directory of cmd to the folder's location  using cd "location" and Enter python manage.py runserver.
