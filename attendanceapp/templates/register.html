@@ -1,49 +1,32 @@
 <html>
    <head>
-           Login
+        <link rel="stylesheet" href="/static/css/style.css" type="text/css"/> 
+       <title>
+           login | DSC JIIT128
        </title> 
-       
-       
-       
-       
-   </head>
-   <body>
-       <form name="s1" method="post" action="/login">
-        {% csrf_token %}
-           <section id="back">
-       <div class="container">
-           <div class="card">
-              <input type="text" required="required"placeholder="Name" id="name"name="Full name"><br>
-              <input type="text" required="required"placeholder="Batch" id="batch"name="Batch"><br>
-              <input type="number" required="required"placeholder="enrollno" id="enrollno"name="Enrollment Number"><br>
-              <input type="text" required="required" placeholder="branch" id="branch"name="branch"><br>
-              <input type="password" required="required" placeholder="Password" id="name"name="password"><br>
-               
-               <a href=' # '><font color="black"> Forgot Password</font> </a><br>
-                <input type="submit" value="Login" id="button"><br><br>
-                <left><font color="black">Workshop SignUp </font> <a href='#'><font color="black">Here</font> </a></left>
-                    
+       <link rel="icon" type="image/png" href="/static/img/ia.png" sizes="32x32">
+   <h1 class="section-title"><span>Workshop</span><font color="white">Registerations</font></h1>
+   
+       <style>
+           
+body{
+margin:0;
+padding:0;
 
-                
-               
-           </div>
-           
-           
-           
-       </div> 
-           
-                
-       
-        </section>           
-       </form>
-       
-   </body>
+
+  
+    background: url(/static/img/dy.png) no-repeat center center fixed;
+                     background-size:cover; 
+                     background-color: black;
+} 
+
+</style>
     
-    
-    
-    
-    
-    
-    
+<body>
+    <form method="POST">
+        {% csrf_token %} {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+</body>
     
 </html>

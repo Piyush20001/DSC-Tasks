@@ -1,7 +1,118 @@
 <html>
    <head>
-           Login
+        <link rel="stylesheet" href="/static/css/style.css" type="text/css"/> 
+       <title>
+           login | DSC JIIT128
        </title> 
+       <link rel="icon" type="image/png" href="/static/img/ia.png" sizes="32x32">
+   <h1 class="section-title"><span>Workshop</span><font color="white">Registerations</font></h1>
+   
+       <style>
+           
+body{
+margin:0;
+padding:0;
+
+
+  
+    background: url(/static/img/dy.png) no-repeat center center fixed;
+                     background-size:cover; 
+                     background-color: black;
+} 
+
+
+#back::after{
+     content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .3;
+    z-index: -1;
+    
+
+}
+.container{
+top:50%;
+left: 50%;
+position:absolute;
+transform:translate(-50%,-50%);
+
+}
+.card{
+padding:40px 25px 30px 25px;
+background: rgb(50,50,50);
+border-radius:7px;
+opacity: .9;
+}
+#name{
+width:153px;
+border:none;
+background:transparent;
+border-bottom:1px solid white;
+padding:6px;
+margin-bottom:13px;
+color: white;
+}
+#button{
+border-radius:15px;
+padding:6px 60px;
+color: crimson;
+background-color: transparent;
+border: 1px solid crimson;
+margin-top: 13px;
+
+
+margin-left:0px;
+}
+#button:hover{
+color: white;
+background-color: crimson;
+cursor: pointer;
+}
+a{
+ font-size:7px;
+}
+@media only screen and (min-width: 768px){
+    .card{
+        padding:60px 40px 50px 40px;
+        background: rgb(50,50,50);
+        border-radius:10px;
+        opacity: .9;
+        }
+        #name{
+        width:200px;
+        border:none;
+        background:transparent;
+        border-bottom:1px solid white;
+        padding:10px;
+        margin-bottom:20px;
+        color: white;
+        }
+        #button{
+        border-radius:20px;
+        padding:10px 85px;
+        color: crimson;
+        background-color: transparent;
+        border: 2px solid crimson;
+        margin-top: 20px;
+        
+        
+        margin-left:0px;
+        }
+        #button:hover{
+        color: white;
+        background-color: crimson;
+        cursor: pointer;
+        }
+        a{
+         font-size:13px;
+        }
+}
+
+</style>
        
        
        
@@ -13,14 +124,14 @@
            <section id="back">
        <div class="container">
            <div class="card">
-              <input type="text" required="required"placeholder="Username" id="name"name="username"><br>
-              <input type="password" required="required" placeholder="Password" id="name"name="password"><br>
+               <input type="text" required="required"placeholder="Username" id="name"name="username"><br>
+               <input type="password" required="required" placeholder="Password" id="name"name="password"><br>
                
-               <a href=' # '><font color="black"> Forgot Password</font> </a><br>
+               <a href=' # '><font color="white"> Forgot Password ?</font> </a><br>
                 <input type="submit" value="Login" id="button"><br><br>
-                <left><font color="black">Workshop SignUp </font> <a href='#'><font color="black">Here</font> </a></left>
+                <center><font color="white">Create a Free Account Now-</font> <a href='/register'><font color="crimson">Sign up</font> </a></center>
                     
-
+          
                 
                
            </div>

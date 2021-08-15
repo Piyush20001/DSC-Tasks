@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home | DSC JIIT 128</title>
+        <link rel="icon" type="image/png" href="/static/img/ia.png" sizes="32x32">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/static/css/style1.css">
+        
+            <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+        
+        <meta name="robots" content="NONE,NOARCHIVE">
+       
+      
+        </head>
+        <body>
+            <header>
+                <div class="website-header">
+                    <img src="/static/img/ia.png">
+                    <h1><font color="#ffb023">DSC</font>JIIT 128</h1>
+                  
+
+                    <div class="social-icons">
+                        
+                        Welcome {{request.user.username}}
+                        <img src="/static/img/user.jpg">
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-md ">
+        
+                    
+                
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                    
+                      </li>
+                     
+                    </ul>
+                </div> 
+                          </nav>
+                        </header>
+                       
+                   
+  <div style="text-align: right">                          
+     <a href="/logout"><font color="#009999" text-align:right  font-family= "cursive">Log out</font></a>   
+                           
+                            
+    </div>                  
+    {% for a in workshops %}
+               
+    <section id="services">
+        <div class="services container">
+            <div class="service-top">
+                
+               
+            </div>
+            <div class = "service-bottom">
+                <div class="service-item">        
+    <h2>{{ a.Title }}</h2>
+    <p>{{ a.Details }}</p><br>
+   
+    
+   
+    {{ a.NoofPeopleRegistered }} &nbsp;No. of Students Registered<br>
+    <a href=""><img src="https://img.icons8.com/ios-glyphs/50/000000/user.png"/></a>
+    <br>Last Date for Registeration: {{ a.LastRegisterDate }}<br></h6>
+    <div style="text-align: left">
+    <a href="/workshopregister/{{ a.id }}" data-after="Contact"></a><button type="submit">Register</button></a>
+    </div>
+
+</div>
+</div>
+</section>
+    {% endfor %}
+
+<br>
+<hr class="new1">
+<hr class="new4">
+<hr class="new1">
+<footer>
+    <div class="social-links">
+        <section class="about">
+            <h2>Register for Upcoming Workshops</h2>
+            
+            <div class="social-icons-footer">
+                <a href="https://www.facebook.com/profile.php?id=100009510969601">
+                    <i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/PiyushK06151933">
+                    <i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/piyush-kumar-a32599111/">
+                    <i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/piyushkumarrrrrrrr/">
+                    <i class="fab fa-instagram"></i></a>
+                   
+            </div>
+        </section>
+        
+       
+    </div>
+    
+    <div class="copyright">Copyright © 2021 Piyush Kumar - All Rights Reserved </div>
+</footer>
+</body>
+</html>
