@@ -15,7 +15,12 @@ Installation Instructions:
 
 4) Run the website by Opening CMD,changing the directory of cmd to the folder's location  using cd "location" and Enter python manage.py runserver.
 
-5) use the following login credentials for logging in:
+![Capture](https://user-images.githubusercontent.com/44575274/129488163-3bdede7e-3e99-4c60-a0f1-031b2e6bb8e9.PNG)
+
+
+5) Open any Browser and Enter http://127.0.0.1:8000/
+
+6) use the following login credentials for logging in:
    Username:TestUser
    Password:TEST
 
