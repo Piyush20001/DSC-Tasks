@@ -2,7 +2,6 @@
 
 
 Use Case(3) I have created Attendance Management System for Workshops Using Pythong with Django framework.JavaScript was Used for scroll Script and Color Change.
-The Website Still has issues and some functions pending.
 
 Installation Instructions:
 
@@ -20,7 +19,7 @@ Installation Instructions:
 
 
 
-The Website Still has issues and some functions pending.
+**The Website Still has issues and some functions pending.**
 
 Thank you for Reading!
 
